@@ -10,6 +10,7 @@ def minOperations(n):
     """
     amount_of_h = 1
     operations = 0
+    opUsed = 0
 
     while amount_of_h < n:
         if amount_of_h == n / 2 or amount_of_h == n // 2:
