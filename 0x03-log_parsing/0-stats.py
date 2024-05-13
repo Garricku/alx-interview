@@ -2,7 +2,7 @@
 """Interview question stats module"""
 
 
-def log_parse(line):
+def parse_log_line(line):
     """Parses the info on the standin and give context
         <IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>
         (if the format is not this one, the line must be skipped)
