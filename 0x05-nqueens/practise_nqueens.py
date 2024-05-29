@@ -17,7 +17,7 @@ def is_safe(board, row, col, N):
     return True
 
 def solve_nqueens(N):
-    """keeps track of all the solutions"""
+    """keeps track of all the positions"""
     board = [['.' for _ in range(N)] for _ in range(N)]
     solutions = []
 
