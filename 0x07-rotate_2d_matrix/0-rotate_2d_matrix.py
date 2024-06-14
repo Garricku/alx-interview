@@ -1,4 +1,9 @@
+#!/usr/bin/python3
+"""Interview question matrix """
+
+
 def rotate_2d_matrix(matrix):
+    """Rotates the inputed matrix"""
     n = len(matrix)
     for layer in range(n // 2):
         for i in range(layer, n - layer - 1):
